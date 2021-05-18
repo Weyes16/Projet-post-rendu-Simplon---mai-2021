@@ -28,7 +28,7 @@ body, p
     font-size: 1em;    
 }
 
-#section_1, #section_2
+.section_1, .section_2
 {
     display: inline flex;
     justify-content: space-around;
@@ -100,7 +100,7 @@ h5
 
 /* HEADER */
 
-#header_1
+.header_1
 {
     display: inline flex;
     justify-content: space-between;
