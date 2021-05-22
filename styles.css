@@ -18,14 +18,21 @@
 }
 
 
+#main_wrapper {
+    width: 1500px;
+    margin:auto;
+}
+
 /* BODY */
 
 body, p
 {
     background-image: url("images/fond_page_3.jpg"); 
-    background-position: right top;
-    background-size: cover;
     background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     font-family: 'ma_police_VictorMono', serif;
     font-size: 1em;    
 }
@@ -144,8 +151,7 @@ dt {
 nav ul
 {
     display: flex;
-list-style-type: "\1F44D"
-
+    list-style-type: "\1F44D";
 }
 
 nav li
